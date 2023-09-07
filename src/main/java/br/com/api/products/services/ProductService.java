@@ -12,7 +12,7 @@ public class ProductService {
     @Autowired
     private ProductRepository pr;
 
-    public Iterable<ProductModel> listar() {
+    public Iterable<ProductModel> listAll() {
         return pr.findAll();
     }
 
